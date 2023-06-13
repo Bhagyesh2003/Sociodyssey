@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
   //call an api to grab the user
   const getUser = async () => {
-    const response = await fetch(`{process.env.REACT_APP_BACKEND_URL}/users/${userId}`, 
+    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/users/${userId}`, 
      {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
