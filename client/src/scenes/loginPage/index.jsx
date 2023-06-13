@@ -9,14 +9,14 @@ const LoginPage = () => {
     <Box>
       <Box width="100%" backgroundColor={theme.palette.background.alt} p="1 rem 6%" textAlign="center">
       <Typography fontWeight="bold" fontSize="32px" color="primary">
-        Sociopedia
+        Sociodyssey
       </Typography>
       </Box>
 
    {/* login Form */}
    <Box width={isNonMobileScreens ? "50%" : "93%"} p="2rem" m="2rem auto" borderRadius="1.5rem" backgroundColor={theme.palette.background.alt}>
     <Typography fontWeight="500" variant='h5' sx={{mb: "1.5rem"}}>
-      Welcome to Sociopedia, the new generation social network!
+      Welcome to Sociodyssey, Work Culture Chronicles: Stories that Inspire, Connections that Thrive.
     </Typography>
 
     <Form />
